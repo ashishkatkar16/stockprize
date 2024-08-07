@@ -6,11 +6,6 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
 
-import logging
-
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-
 
 # Function to fetch and process stock data
 def get_stock_data(symbol, start_date, end_date):
